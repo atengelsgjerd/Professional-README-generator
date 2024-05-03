@@ -2,10 +2,10 @@
 const inquirer = require("inquirer");
 const colors = require("colors");
 const fs = require("fs");
-const util = require("util");
 const generateMarkdown = require("./generateMarkdown.js");
 
-const writeFileAsync = util.promisify(fs.writeFile);
+
+// const writeFileAsync = util.promisify(fs.writeFile);
 // TODO: Create an array of questions for user input
 const questions = [
     {
@@ -44,27 +44,39 @@ const questions = [
         choices: ["MIT", "Apache", "GPL"],
         name: "license"
     },
+    
 ];
+function init() {
+inquirer.prompt(questions).then(function(answers){
+ fs.writeFileSync("README.md", generateMarkdown(answers), function(err){
+        console.log(err ? err : "Created README.md!");
+    });
+});
+}
 
-// TODO: Create a function to write README file
+init();
+// const answers = inquirer.prompt(questions);
+// // TODO: Create a function to write README file
 // function writeToFile(fileName, data) {
-//     fs.writeFile(fileName, data, function(err){
-//         console.log(err ? err : "Success!");
+//     fs.writeFileSync(fileName, data, function(err){
+//         console.log(err ? err : "Created README.md!");
 //     })
 // }
 
-async function init() {
-    try {
-      const answers = await inquirer.prompt(questions);
-    //   answers.licenseBadge = licenseBadge(answers.license);
-      let readMeData = generateMarkdown(answers);
-      await writeFileAsync("created-README.md", readMeData);
-    } catch (err) {
-      throw err;
-    }
-  }
+// writeToFile("README.md", generateMarkdown(answers));
 
-init();
+
+// async function init() {
+//     try {
+//       const answers = await inquirer.prompt(questions);
+//       let readMeData = generateMarkdown(answers);
+//       await writeFileAsync("created-README.md", readMeData);
+//     } catch (err) {
+//       throw err;
+//     }
+//   }
+
+// init();
 
 // // TODO: Create a function to initialize app
 // function init() {}

@@ -1,12 +1,26 @@
 // function to generate markdown for README
+function renderLicenseBadge(license) {
+  if (license === "MIT") {
+    return "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)";
+  } else if (license === "Apache") {
+    return "![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)";
+  } else if (license === "GPL") {
+    return "![License: GPL](https://img.shields.io/badge/License-GPLv3-blue.svg)";
+  }
+}
+
+module.exports = renderLicenseBadge;
+
+
 function generateMarkdown(data) {
+
     return `
     
   # ${data.projectTitle}
   
     ${data.projectDescription}
   
-    ${data.licenseBadge}
+    ${renderLicenseBadge(data.license)}
     
   ---
   ## Contents
@@ -91,5 +105,7 @@ function generateMarkdown(data) {
     
   `;
   }
+
+  
   
   module.exports = generateMarkdown;

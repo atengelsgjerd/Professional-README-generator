@@ -1,26 +1,24 @@
 
     
-  # First coding adventure
+  # ff
   
-    All of the description.
+    f
   
-    undefined
-  
-    [A deployed version can be viewed here.](undefined)
+    [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
     
   ---
   ## Contents
   
   1. [About](#about)
-      1. [User Story](#user%20story)
-      2. [Acceptance criteria](#acceptance%20criteria)
+      1. [User Story](#userstory)
+      2. [Acceptance criteria](#AcceptanceCriteria)
       3. [Visuals](#visuals)
       4. [Build](#build)
   2. [Installation](#installation)
   3. [License](#license)
   4. [Contributing](#contributing)
   5. [Tests](#tests)
-  6. [Authors and acknowledgment](#authors%20and%20acknowledgment)
+  6. [Authors and acknowledgment](#authorsandacknowledgment)
   
   ---
   ## About
@@ -45,7 +43,7 @@
   ---
   
   ## Installation:
-    steps to install
+    f
   
     To clone the repo:
     
@@ -76,7 +74,7 @@
   ---
   
   ## Tests:
-    Tests.
+    f
   
   ---
   
