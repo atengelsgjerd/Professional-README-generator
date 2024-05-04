@@ -2,7 +2,7 @@
 const inquirer = require("inquirer");
 const colors = require("colors");
 const fs = require("fs");
-const generateMarkdown = require("./generateMarkdown.js");
+const generateMarkdown = require("./utils/generateMarkdown.js");
 
 
 // const writeFileAsync = util.promisify(fs.writeFile);
@@ -41,7 +41,7 @@ const questions = [
     {
         type: "list",
         message: "What license would you like to use?",
-        choices: ["MIT", "Apache", "GPL"],
+        choices: ["MIT", "Apache", "GPL", "none"],
         name: "license"
     },
     

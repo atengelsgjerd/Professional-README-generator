@@ -1,24 +1,24 @@
 
     
-  # ff
+  # f
   
     f
   
-    [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+  
     
   ---
   ## Contents
   
-  1. [About](#about)
-      1. [User Story](#userstory)
-      2. [Acceptance criteria](#AcceptanceCriteria)
-      3. [Visuals](#visuals)
-      4. [Build](#build)
-  2. [Installation](#installation)
-  3. [License](#license)
-  4. [Contributing](#contributing)
-  5. [Tests](#tests)
-  6. [Authors and acknowledgment](#authorsandacknowledgment)
+  * [About](#about)
+  * [User Story](#userstory)
+  * [Acceptance criteria](#AcceptanceCriteria)
+  *  [Visuals](#visuals)
+  *  [Build](#build)
+  * [Installation](#installation)
+  
+  *  [Contributing](#contributing)
+  *  [Tests](#tests)
+  * [Authors and acknowledgment](#authorsandacknowledgment)
   
   ---
   ## About
@@ -52,7 +52,7 @@
   ---
   
   ## License
-    License used for this project - MIT
+    License used for this project - none
     * For more information on license types, please reference this website
     for additional licensing information - [https: //choosealicense.com/](https://choosealicense.com/).
   
