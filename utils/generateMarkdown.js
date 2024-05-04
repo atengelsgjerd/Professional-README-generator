@@ -23,9 +23,9 @@ function renderLicenseSection(license) {
     return '';
 } else {
   return ` ## License
-  License used for this project - ${data.license}
+  License used for this project - ${license}
   * For more information on license types, please reference this website
-  for additional licensing information - [https: //choosealicense.com/](https://choosealicense.com/).`
+  for additional licensing information - [https: //choosealicense.com/](https://choosealicense.com/).`;
 }
 }
 

@@ -4,7 +4,7 @@
   
     f
   
-  
+  ![License:](https://img.shields.io/badge/License-MIT-yellow.svg)
     
   ---
   ## Contents
@@ -15,10 +15,10 @@
   *  [Visuals](#visuals)
   *  [Build](#build)
   * [Installation](#installation)
-  
   *  [Contributing](#contributing)
   *  [Tests](#tests)
   * [Authors and acknowledgment](#authorsandacknowledgment)
+  *[License](#license)
   
   ---
   ## About
@@ -51,10 +51,10 @@
     
   ---
   
-  ## License
-    License used for this project - none
-    * For more information on license types, please reference this website
-    for additional licensing information - [https: //choosealicense.com/](https://choosealicense.com/).
+   ## License
+  License used for this project - MIT
+  * For more information on license types, please reference this website
+  for additional licensing information - [https: //choosealicense.com/](https://choosealicense.com/).
   
   ---
   
@@ -86,5 +86,7 @@
   ## Contact Information:
   * GitHub Username: undefined
   * GitHub Email: undefined
+  * 
+  * ## Video
     
   
