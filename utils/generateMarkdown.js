@@ -61,22 +61,27 @@ function generateMarkdown(data) {
   ---
   
   ## User Story
-    
+  \`\`\`
+  ${data.usage}
+  \`\`\` 
   
   ---
   
   ## Installation:
     
-      To install necessary dependencies, run the following command:
-      
-   \`\`\`
-    ${data.installationSteps}
-    \`\`\`
+    
+  To clone the repo:
+    
+  git clone 
+  \`\`\`
+  ${data.clone}
+  \`\`\`
+
+  To install necessary dependencies, run the following command:
+  \`\`\`
+  ${data.installationSteps}
+  \`\`\`
   
-    To clone the repo:
-    
-        git clone ${data.clone}
-    
   ---
   
   ${renderLicenseSection(data.license)}
@@ -84,6 +89,8 @@ function generateMarkdown(data) {
   ---
   
   ## Contributing:
+
+
     
     To contribute to this application, create a pull request.
     Here are the steps needed for doing that:
@@ -104,7 +111,7 @@ function generateMarkdown(data) {
   ---
   
   ## Questions:
-  * [GitHub Profile]:(#github.com/${data.userName})
+  * GitHub Username: [atengelsgjerd](https://github.com/${data.userName})
   * GitHub Email: ${data.userEmail}
   * 
   * ## Video

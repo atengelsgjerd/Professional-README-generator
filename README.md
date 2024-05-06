@@ -2,13 +2,13 @@
     
   # README Generator
   
-    This project was created with the goal of making it easier to write README files for any project a developer is working on. By using the terminal, you will be given a series of prompts in which the answers will dynamically fill each area of the README section it pertains to. After completing all of the prompts, a professional README file will be generated!
+    A command-line application that dynamically creates a professional README.md from a user's input.
   
-  ![License:](https://img.shields.io/badge/License-Apache-yellow.svg)
+  ![License:](https://img.shields.io/badge/License-MIT-yellow.svg)
     
   ---
   ## Contents
-
+ 
   * [About](#about)
   * [User Story](#userstory)
   * [Installation](#installation)
@@ -20,32 +20,47 @@
   ---
   ## About
   
-    undefined
+  When creating an open source project on GitHub, it's important to have a comprehensive and quality README section. It should include
+  information about the app, how it is used, installation instructions, how contributions to the project can be made, and licensing information. This command-line application allows for a quick and easy generation of a README for the user, so that they can spend more time on the project, while also having a high-quality README.
   
   ---
   
   ## User Story
-    
+  ```
+  As a developer
+  I WANT a README generator
+  SO THAT I can quickly create a professional README for a new project
+  ``` 
   
   ---
   
   ## Installation:
-    npm i
+    
+    
+  To clone the repo:
+    
+  git clone 
+  ```
+  git@github.com:atengelsgjerd/Professional-README-generator.git
+  ```
+
+  To install necessary dependencies, run the following command:
+  ```
+  npm i
+  ```
   
-    To clone the repo:
-    
-        git clone https://github.com/atengelsgjerd/Professional-README-generator
-    
   ---
   
    ## License
-  License used for this project - Apache
+  License used for this project - MIT
   * For more information on license types, please reference this website
   for additional licensing information - [https: //choosealicense.com/](https://choosealicense.com/).
   
   ---
   
   ## Contributing:
+
+
     
     To contribute to this application, create a pull request.
     Here are the steps needed for doing that:
@@ -60,15 +75,11 @@
   
   ---
   
-  ## Tests:
-    To run tests, run on these commands: npm test
-  
-  ---
   
   ## Questions:
-  * [GitHub Profile](#github.com/atengelsgjerd)
+  * GitHub Username: [atengelsgjerd](https://github.com/atengelsgjerd)
   * GitHub Email: atengelsgjerd@gmail.com
-  * 
-  * ## Video
+  
+  ## Video
     
   

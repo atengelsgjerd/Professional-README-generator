@@ -20,18 +20,18 @@ const questions = [
     },
     {
         type: "input",
-        message: "Are there any dependencies required for this project?",
+        message: "Please tell us about your project",
+        name: "about"
+    },
+    {
+        type: "input",
+        message: "What are the steps in order to use any dependencies?",
         name: "installationSteps"
     },
     {
         type: "input",
         message: "Provide instructions and examples for use",
         name: "usage"
-    },
-    {
-        type: "input",
-        message: "Provide any guidelines on how to contribute to this project",
-        name: "contributing"
     },
     {
         type: "input",
