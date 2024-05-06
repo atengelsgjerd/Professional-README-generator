@@ -20,7 +20,7 @@ const questions = [
     },
     {
         type: "input",
-        message: "What are the steps required to install your project?",
+        message: "Are there any dependencies required for this project?",
         name: "installationSteps"
     },
     {
@@ -43,6 +43,21 @@ const questions = [
         message: "What license would you like to use?",
         choices: ["MIT", "Apache", "GPL", "none"],
         name: "license"
+    },
+    {
+        type: "input",
+        message: "Enter your GitHub username",
+        name: "userName"
+    },
+    {
+        type: "input",
+        message: "Enter your GitHub email",
+        name: "userEmail"
+    },
+    {
+        type: "input",
+        message: "Enter the link to clone this repo",
+        name: "clone"
     },
     
 ];

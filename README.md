@@ -1,24 +1,21 @@
 
     
-  # f
+  # README Generator
   
-    f
+    This project was created with the goal of making it easier to write README files for any project a developer is working on. By using the terminal, you will be given a series of prompts in which the answers will dynamically fill each area of the README section it pertains to. After completing all of the prompts, a professional README file will be generated!
   
-  ![License:](https://img.shields.io/badge/License-MIT-yellow.svg)
+  ![License:](https://img.shields.io/badge/License-Apache-yellow.svg)
     
   ---
   ## Contents
-  
+
   * [About](#about)
   * [User Story](#userstory)
-  * [Acceptance criteria](#AcceptanceCriteria)
-  *  [Visuals](#visuals)
-  *  [Build](#build)
   * [Installation](#installation)
-  *  [Contributing](#contributing)
-  *  [Tests](#tests)
-  * [Authors and acknowledgment](#authorsandacknowledgment)
-  *[License](#license)
+  * [Contributing](#contributing)
+  * [Tests](#tests)
+  * [Questions](#questions)
+  * [License](#license)
   
   ---
   ## About
@@ -32,27 +29,17 @@
   
   ---
   
-  ## Acceptance Criteria
-    
-    
-  ---
-  ## Visuals:
-  
-    ![]()
-  
-  ---
-  
   ## Installation:
-    f
+    npm i
   
     To clone the repo:
     
-        git clone undefined
+        git clone https://github.com/atengelsgjerd/Professional-README-generator
     
   ---
   
    ## License
-  License used for this project - MIT
+  License used for this project - Apache
   * For more information on license types, please reference this website
   for additional licensing information - [https: //choosealicense.com/](https://choosealicense.com/).
   
@@ -74,18 +61,13 @@
   ---
   
   ## Tests:
-    f
+    To run tests, run on these commands: npm test
   
   ---
   
-  ## Authors and Acknowledgments
-    undefined
-  
-  ---
-  
-  ## Contact Information:
-  * GitHub Username: undefined
-  * GitHub Email: undefined
+  ## Questions:
+  * [GitHub Profile](#github.com/atengelsgjerd)
+  * GitHub Email: atengelsgjerd@gmail.com
   * 
   * ## Video
     

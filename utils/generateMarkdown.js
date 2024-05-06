@@ -44,16 +44,13 @@ function generateMarkdown(data) {
     
   ---
   ## Contents
-  
+  Installation, Usage, License, Contributing, Tests, and Questions
   * [About](#about)
   * [User Story](#userstory)
-  * [Acceptance criteria](#AcceptanceCriteria)
-  *  [Visuals](#visuals)
-  *  [Build](#build)
   * [Installation](#installation)
-  *  [Contributing](#contributing)
-  *  [Tests](#tests)
-  * [Authors and acknowledgment](#authorsandacknowledgment)
+  * [Contributing](#contributing)
+  * [Tests](#tests)
+  * [Questions](#questions)
   ${renderLicenseLink(data.license)}
   
   ---
@@ -68,18 +65,13 @@ function generateMarkdown(data) {
   
   ---
   
-  ## Acceptance Criteria
-    
-    
-  ---
-  ## Visuals:
-  
-    ![]()
-  
-  ---
-  
   ## Installation:
+    
+      To install necessary dependencies, run the following command:
+      
+   \`\`\`
     ${data.installationSteps}
+    \`\`\`
   
     To clone the repo:
     
@@ -111,13 +103,8 @@ function generateMarkdown(data) {
   
   ---
   
-  ## Authors and Acknowledgments
-    ${data.author}
-  
-  ---
-  
-  ## Contact Information:
-  * GitHub Username: ${data.userName}
+  ## Questions:
+  * [GitHub Profile]:(#github.com/${data.userName})
   * GitHub Email: ${data.userEmail}
   * 
   * ## Video
