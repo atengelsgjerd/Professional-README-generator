@@ -13,7 +13,7 @@ function renderLicenseLink(license) {
     return ''; 
 }
   else {
-    return `*[License](#license)`;
+    return `* [License](#license)`;
   } 
 
 }
@@ -43,10 +43,9 @@ function generateMarkdown(data) {
   ${renderLicenseBadge(data.license)}
     
   ---
-  ## Contents
-  Installation, Usage, License, Contributing, Tests, and Questions
+  ## Table of Contents
   * [About](#about)
-  * [User Story](#userstory)
+  * [User Story](#user-story)
   * [Installation](#installation)
   * [Contributing](#contributing)
   * [Tests](#tests)
@@ -111,10 +110,9 @@ function generateMarkdown(data) {
   ---
   
   ## Questions:
+  Contact Alex with any questions at:
   * GitHub Username: [atengelsgjerd](https://github.com/${data.userName})
   * GitHub Email: ${data.userEmail}
-  * 
-  * ## Video
     
   `;
   }

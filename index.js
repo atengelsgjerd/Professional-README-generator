@@ -63,7 +63,7 @@ const questions = [
 ];
 function init() {
 inquirer.prompt(questions).then(function(answers){
- fs.writeFileSync("README.md", generateMarkdown(answers), function(err){
+ fs.writeFileSync("Sample-README.md", generateMarkdown(answers), function(err){
         console.log(err ? err : "Created README.md!");
     });
 });

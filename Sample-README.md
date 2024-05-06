@@ -1,16 +1,15 @@
 
     
-  # README Generator
+  # Test project
   
-    A command-line application that dynamically creates a professional README.md from a user's input.
+    This is for testing purposes.
   
   ![License:](https://img.shields.io/badge/License-MIT-yellow.svg)
     
   ---
-  ## Contents
- 
+  ## Table of Contents
   * [About](#about)
-  * [User Story](#userstory)
+  * [User Story](#user-story)
   * [Installation](#installation)
   * [Contributing](#contributing)
   * [Tests](#tests)
@@ -20,16 +19,13 @@
   ---
   ## About
   
-  When creating an open source project on GitHub, it's important to have a comprehensive and quality README section. It should include
-  information about the app, how it is used, installation instructions, how contributions to the project can be made, and licensing information. This command-line application allows for a quick and easy generation of a README for the user, so that they can spend more time on the project, while also having a high-quality README.
+    This project is for users to create a README file dynamically using the command line.
   
   ---
   
   ## User Story
   ```
-  As a developer
-  I WANT a README generator
-  SO THAT I can quickly create a professional README for a new project
+  The usage of this is for developers to create a high-quality README quickly, so that they can focus on writing the code for their application.
   ``` 
   
   ---
@@ -46,7 +42,7 @@
 
   To install necessary dependencies, run the following command:
   ```
-  npm i
+  This project used the inquirer package. To use, do an npm init and then install the inquirer@8.2.4 package using the npm i command.
   ```
   
   ---
@@ -75,13 +71,14 @@
   
   ---
   
+  ## Tests:
+    None
+  
+  ---
   
   ## Questions:
+  Contact Alex with any questions at:
   * GitHub Username: [atengelsgjerd](https://github.com/atengelsgjerd)
   * GitHub Email: atengelsgjerd@gmail.com
-  
-  ## Video
-   ![](./images/Screenshot%20(71).png)
-  * [Walk-through Video](https://drive.google.com/file/d/18LqE2fiz6XvA0Lm4WyTUC1j0X0fkI_dT/view?usp=sharing)
     
   
